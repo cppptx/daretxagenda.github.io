@@ -158,10 +158,12 @@ hr.small {
 
 .header h1 {
 	color: #DB2800;
+	font-size: 6em;
 }
 
 .header h3 {
-	color: F6AA32;
+	color: #F6AA32;
+	font-size: 3em;
 }
 
 /* About */
