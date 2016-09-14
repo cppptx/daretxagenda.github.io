@@ -209,27 +209,27 @@ hr.small {
 	margin-bottom: 1.5px;
 }
 
-#invest {
+.invest {
 	background-color: #3AD800;
 }
 
-#health {
+.health {
 	background-color: #DB2800;
 }
 
-#economic {
+.economic {
 	background-color: #0D9DB8;
 }
 
-#education { 
+.education { 
 	background-color: #960FB7;
 }
 
-#communications {
+.communications {
 	background-color: #F6AA32
 }
 
-#other { 
+.other { 
 	background-color: #87766A;
 }
 
