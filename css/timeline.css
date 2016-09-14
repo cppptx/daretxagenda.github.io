@@ -232,8 +232,9 @@
   }
   .timeline>li:nth-child(even) .timeline-image {
     left: 0;
-    margin-left: 0;
-  }
+	margin-left: 0;
+	float: left;
+}
   .timeline>li:nth-child(odd) .timeline-image {
     float:right;
     left: 0px;
