@@ -209,6 +209,10 @@ hr.small {
 	margin-bottom: 1.5px;
 }
 
+.agenda li {
+	padding: 4px;
+}
+
 .invest {
 	background-color: #3AD800;
 }
