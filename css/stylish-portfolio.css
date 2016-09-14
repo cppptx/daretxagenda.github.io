@@ -202,7 +202,7 @@ hr.small {
 
 /* agenda legend */
 
-#legend li { 
+.legend li { 
 	font-size: 1.2em;
 	padding: 5px;
 	margin-top: 1.5px;
