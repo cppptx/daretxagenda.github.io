@@ -208,6 +208,7 @@ hr.small {
  -moz-border-radius:75px;
  -webkit-border-radius: 75px;
  width: 30px;
+ margin-left: 40%;
 }
 
 .full-circle-red {
@@ -216,6 +217,7 @@ hr.small {
  	-moz-border-radius:75px;
  	-webkit-border-radius: 75px;
  	width: 30px;
+	margin-left: 40%;
 }
 
 .full-circle-blue {
@@ -224,6 +226,7 @@ hr.small {
  	-moz-border-radius:75px;
 	-webkit-border-radius: 75px;
  	width: 30px;
+	margin-left: 40%;
 }
 
 .full-circle-purple { 
@@ -232,6 +235,7 @@ hr.small {
  	-moz-border-radius:75px;
 	-webkit-border-radius: 75px;
  	width: 30px;
+	margin-left: 40%;
 }
 
 .full-circle-orange { 
@@ -240,6 +244,7 @@ hr.small {
  	-moz-border-radius:75px;
 	-webkit-border-radius: 75px;
  	width: 30px;
+	margin-left: 40%;
 }
 
 .full-circle-orange { 
@@ -248,6 +253,7 @@ hr.small {
  	-moz-border-radius:75px;
 	-webkit-border-radius: 75px;
  	width: 30px;
+	margin-left: 40%;
 }
 
 .full-circle-black { 
@@ -256,10 +262,7 @@ hr.small {
  	-moz-border-radius:75px;
 	-webkit-border-radius: 75px;
  	width: 30px;
-}
-
-#wednov30 ul {
-	list-style-type: none;
+	margin-left: 40%;
 }
 
 /* Portfolio */
