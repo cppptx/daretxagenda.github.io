@@ -202,67 +202,32 @@ hr.small {
 
 /* agenda legend */
 
-.full-circle-green {
- background-color: #25D800;
- height: 30px;
- -moz-border-radius:75px;
- -webkit-border-radius: 75px;
- width: 30px;
- margin-left: 35%;
+#legend li { 
+	font-size: 1.3em;
 }
 
-.full-circle-red {
- 	background-color: #DB2800;
- 	height: 30px;
- 	-moz-border-radius:75px;
- 	-webkit-border-radius: 75px;
- 	width: 30px;
-	margin-left: 35%;
+#invest {
+	background-color: #3AD800;
 }
 
-.full-circle-blue {
- 	background-color: #0D9DB8;
- 	height: 30px;
- 	-moz-border-radius:75px;
-	-webkit-border-radius: 75px;
- 	width: 30px;
-	margin-left: 35%;
+#health {
+	background-color: #DB2800;
 }
 
-.full-circle-purple { 
-	background-color: #790FB7;
- 	height: 30px;
- 	-moz-border-radius:75px;
-	-webkit-border-radius: 75px;
- 	width: 30px;
-	margin-left: 35%;
+#economic {
+	background-color: #0D9DB8;
 }
 
-.full-circle-orange { 
-	background-color: #F6AA32;
- 	height: 30px;
- 	-moz-border-radius:75px;
-	-webkit-border-radius: 75px;
- 	width: 30px;
-	margin-left: 35%;
+#education { 
+	background-color: #960FB7;
 }
 
-.full-circle-orange { 
-	background-color: #F6AA32;
- 	height: 30px;
- 	-moz-border-radius:75px;
-	-webkit-border-radius: 75px;
- 	width: 30px;
-	margin-left: 35%;
+#communications {
+	background-color: #F6AA32
 }
 
-.full-circle-black { 
+#other { 
 	background-color: #87766A;
- 	height: 30px;
- 	-moz-border-radius:75px;
-	-webkit-border-radius: 75px;
- 	width: 30px;
-	margin-left: 35%;
 }
 
 /* Portfolio */
