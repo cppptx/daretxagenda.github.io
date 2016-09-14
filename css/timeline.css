@@ -56,10 +56,9 @@
     z-index: 100;
     position: absolute;
     left: 50%;
-    border: 7px solid #87766A;
+    border: 7px solid #fff;
     border-radius: 100%;
     background-color: #fff;
-   
     width: 200px;
     height: 200px;
     margin-left: -100px;
@@ -87,7 +86,7 @@
 .timeline>li.timeline-inverted>.timeline-panel:after {
     right: auto;
     left: -14px;
-    border-right-width: 14px;
+    border-right-width: px;
     border-left-width: 0;
 }
 
