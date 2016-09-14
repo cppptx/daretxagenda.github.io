@@ -188,12 +188,24 @@ hr.small {
 
 /* Callout */
 
-.callout {
+#callout1 {
     display: table;
     width: 100%;
     height: 400px;
     color: #fff;
     background: url(../img/CPPP-18.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#callout2 {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/CPPP-342.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -214,27 +226,27 @@ hr.small {
 }
 
 .invest {
-	background-color: #3AD800;
+	background-color: #82D663;
 }
 
 .health {
-	background-color: #DB2800;
+	background-color: #D9715A;
 }
 
 .economic {
-	background-color: #0D9DB8;
+	background-color: #55A8B8;
 }
 
 .education { 
-	background-color: #960FB7;
+	background-color: #A45EB6;
 }
 
 .communications {
-	background-color: #F6AA32;
+	background-color: #F6C06C;
 }
 
 .other { 
-	background-color: #87766A;
+	background-color: #AF9F94;
 }
 
 /* Portfolio */
