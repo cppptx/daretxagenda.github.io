@@ -198,6 +198,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	z-index: 900;
 }
 
 #callout2 {
@@ -210,6 +211,11 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	z-index: 900;
+}
+
+#separate {
+	padding-top: 3%;
 }
 
 /* agenda legend */
@@ -252,6 +258,8 @@ hr.small {
 .other { 
 	background-color: #AF9F94;
 }
+
+
 
 /* Portfolio */
 

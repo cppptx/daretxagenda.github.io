@@ -146,12 +146,14 @@
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
   .timeline > li:nth-child(even) {
-    margin-bottom: 0px;
+    margin-bottom: 6px;
+	margin-top: 6px;
     min-height: 0px;
     right: 0px;
   }
   .timeline > li:nth-child(odd) {
-    margin-bottom: 0px;
+    margin-bottom: 6px;
+	margin-top: 23px;
     min-height: 0px;
     left: 0px;
   }
@@ -180,12 +182,12 @@
 /* Small Devices, Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   .timeline > li:nth-child(even) {
-    margin-bottom: 0px;
+    margin-bottom: 6%;
     min-height: 0px;
     right: 0px;
   }
   .timeline > li:nth-child(odd) {
-    margin-bottom: 0px;
+    margin-bottom: 6%;
     min-height: 0px;
     left: 0px;
   }
