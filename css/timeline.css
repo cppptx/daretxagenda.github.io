@@ -56,7 +56,6 @@
     z-index: 100;
     position: absolute;
     left: 50%;
-    border: 7px solid #fff;
     border-radius: 100%;
     background-color: #fff;
     width: 200px;
@@ -123,7 +122,7 @@
     left: 690px;
     width: 4px;
     height:340px;
-    background-color: #AF9F94;
+    background-color: #F6AA30;
     -ms-transform: rotate(-44deg); /* IE 9 */
     -webkit-transform: rotate(-44deg); /* Safari */
     transform: rotate(-44deg);
@@ -138,7 +137,7 @@
     left: 450px;
     width: 4px;
     height:340px;
-    background-color: #AF9F94;
+    background-color: #F6AA30;
     -ms-transform: rotate(44deg); /* IE 9 */
     -webkit-transform: rotate(44deg); /* Safari */
     transform: rotate(44deg);
