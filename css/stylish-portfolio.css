@@ -238,26 +238,32 @@ hr.small {
 
 .invest {
 	background-color: #5BBA47;
+	color: #fff;
 }
 
 .health {
 	background-color: #DA2E26;
+	color: #fff;
 }
 
 .economic {
 	background-color: #0C9DB8;
+	color: #fff;
 }
 
 .education { 
 	background-color: #893C97;
+	color: #fff;
 }
 
 .communications {
 	background-color: #F6AA30;
+	color: #fff;
 }
 
 .other { 
 	background-color: #87766A;
+	color: #fff;
 }
 
 /* Portfolio */
