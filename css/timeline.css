@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+.timeline-panel h4 {
+	font-weight:600
+}
+
 .timeline>li:nth-child(even) {
     position: relative;
     margin-bottom: 50px;
