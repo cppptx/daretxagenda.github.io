@@ -255,4 +255,8 @@
   .timeline > li .line {
     display: none;
   }
+  .agenda li {
+	padding: -14px;
+}
+
 }
