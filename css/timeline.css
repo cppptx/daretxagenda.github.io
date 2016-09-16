@@ -9,6 +9,10 @@
 	font-weight:600
 }
 
+.timeline-panel a { 
+	color: white;
+}
+
 .timeline>li:nth-child(even) {
     position: relative;
     margin-bottom: 50px;
