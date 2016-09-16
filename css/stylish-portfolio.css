@@ -228,7 +228,7 @@ hr.small {
 }
 
 .agenda li {
-	padding: 4px;
+	position: relative;
 }
 
 #plenary2 {

@@ -17,8 +17,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="css/timeline.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -189,14 +189,14 @@
               <p>
                 Participants will have the opportunity to attend sessions covering one of the following topics:</p>
               	<ul class="list-unstyled agenda">
-                	<li class="invest">Property Taxes: From Appraisal and Protest to Budgeting and Tax Rates (L2S), <i>Foothills 1</i></li>
-                    
+                	
+                    <li><a tabindex="0" class="btn btn-link invest" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Property Taxes: From Appraisal and Protest to Budgeting and Tax Rates (L2S)" data-content="Experience the thrills and chills of property taxes, from getting your appraisal notice to setting the local tax rate! In this hands-on workshop, participants will receive their Notice of Appraised Value, protest their appraisal to the Appraisal Review Board, then sit as a City Council listening to appeals for increased spending on public services, writing a budget and setting a tax rate.">Property Taxes: From Appraisal and Protest to Budgeting and Tax Rates (L2S), <i>Foothills 1</i></a></li>
                     	
-                    <li class="health">Countdown to the Texas Hospital Funding Crisis: The Texas Medicaid Waiver (L2S), <i>Foothills</i></li>
+                    <li><a tabindex="0" class="btn btn-link health" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Countdown to the Texas Hospital Funding Crisis: The Texas Medicaid Waiver (L2S)" data-content="The extension Federal Medicaid officials granted Texas in May means Texas hospitals will only continue to receive funding at current levels through the end of 2017. What happens after that has multi-billion dollar implications for Texas hospitals, county governments, and communities.">Countdown to the Texas Hospital Funding Crisis: The Texas Medicaid Waiver (L2S), <i>Foothills</i></a></li>
                    
-                    <li class="education">Elementry to the Middle Grades: Whats Working, <i>Texas 1</i></li>
+                    <li><a tabindex="0" class="btn btn-link education" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Elementry to the Middle Grades: Whats Working" data-content="A lot of attention has been spent on Early Education and high school completion strategies, yet what happens in elementary and middle school is often over looked. This session will look at some of the promising practices and strategies that successfully move students through the beginning portion of the educational pipeline.">Elementry to the Middle Grades: Whats Working, <i>Texas 1</i></a></li>
                     
-                    <li class="communications">Digital Skills, <i>Texas 2</i></li>
+                    <li><a tabindex="0" class="btn btn-link communications" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Digital Skills" data-content="Ahead of the 2017 Legislative session, get a quick intro / refresher on digital tools that you and your organization can use to get your message in front of the right people in the right formats.">Digital Skills, <i>Texas 2</i></a></li>
               	</ul>
             </div>
           </div>
@@ -588,6 +588,20 @@
         }
     });
     
+	// Tooltips 
+	$(function () {
+  		$('[data-toggle="tooltip"]').tooltip()
+	});
+	
+	// Popovers
+	$(function () {
+  		$('[data-toggle="popover"]').popover()
+	});
+	
+	$('.popover-dismiss').popover({
+  		trigger: 'focus'
+	});
+	
     </script>
 
 </body>
