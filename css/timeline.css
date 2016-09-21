@@ -10,8 +10,9 @@
 }
 
 .timeline-panel a { 
-	color: #F7F7F7;
+	color: #010101;
 	font-size: 1em;
+	font-weight: 700
 }
 
 .timeline>li:nth-child(even) {
