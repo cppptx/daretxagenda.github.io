@@ -237,33 +237,45 @@ hr.small {
 }
 
 .invest {
-	background-color: #5BBA47;
-	color: #fff;
+	border-left: solid #5BBA47 5px;
+	color: #010101;
+	background-color: #F2F2F2;
+	margin-left: 2px;
 }
 
 .health {
-	background-color: #DA2E26;
-	color: #fff;
+	border-left: solid #DA2E26 5px;
+	color: #010101;
+	background-color: #F2F2F2;
+	margin-left: 2px;
 }
 
 .economic {
-	background-color: #0C9DB8;
-	color: #fff;
+	border-left: solid #0C9DB8 5px;
+	margin-left: 2px;
+	color: #010101;
+	background-color: #F2F2F2;
 }
 
 .education { 
-	background-color: #893C97;
-	color: #fff;
+	border-left: solid #893C97 5px;
+	margin-left: 2px;
+	color: #010101;
+	background-color: #F2F2F2;
 }
 
 .communications {
-	background-color: #F6AA30;
-	color: #fff;
+	border-left: solid #F6AA30 5px;
+	margin-left: 2px;
+	color: #010101;
+	background-color: #F2F2F2;
 }
 
 .other { 
-	background-color: #87766A;
-	color: #fff;
+	border-left: solid #87766A 5px;
+	margin-left: 2px;
+	color: #010101;
+	background-color: #F2F2F2;
 }
 
 .popover-title {
