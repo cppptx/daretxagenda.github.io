@@ -11,7 +11,11 @@ body h1, h2, h3, h4, h5 {
 }
 
 p {
-	font-size: 1.15em;
+	font-size: 1.30em;
+	font-family: 'Didact Gothic', sans-serif;
+}	
+
+p a {
 	font-family: 'Didact Gothic', sans-serif;
 }
 
@@ -89,10 +93,11 @@ hr.small {
     padding: 0;
     list-style: none;
 }
-
+	
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
+	font-family: 'Didact Gothic', sans-serif;
 }
 
 .sidebar-nav li a {
@@ -235,7 +240,8 @@ hr.small {
 	background-color: #DA2E26;
 	font-weight: 700;
 	font-style: italic;
-	font-size: 1.8em;
+	font-size: 1.4em;
+	font-family: 'PT Sans', sans-serif;
 }
 
 #menuregister {
