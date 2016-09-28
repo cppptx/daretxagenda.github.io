@@ -123,6 +123,7 @@ hr.small {
     font-size: 18px;
     line-height: 55px;
 	font-weight: 700;
+	font-style: italic;
 }
 
 .sidebar-nav > .sidebar-brand a {
