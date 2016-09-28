@@ -71,7 +71,8 @@ hr.small {
     height: 100%;
     transform: translateX(250px);
     overflow-y: auto;
-    background: #222;
+    background: #6E6E6E;
+	border: dotted 1.5px #000;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -96,7 +97,7 @@ hr.small {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999;
+    color: #DBDBDB;
 }
 
 .sidebar-nav li a:hover {
@@ -114,10 +115,11 @@ hr.small {
     height: 55px;
     font-size: 18px;
     line-height: 55px;
+	font-weight: 700;
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999;
+    color: #fff;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
