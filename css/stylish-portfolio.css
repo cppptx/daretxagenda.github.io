@@ -263,6 +263,10 @@ hr.small {
 	padding: 5px
 }
 
+.agenda a {
+	font-size: 1.1em;
+}
+
 #plenary2 {
 	padding: 4px;
 }
