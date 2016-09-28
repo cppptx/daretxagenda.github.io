@@ -129,6 +129,9 @@
 .img-circle {
 	z-index: -1000;
 }
+.img-responsive {
+	z-index: -1001;
+}
 
 .fa, .fa-bars {
 	z-index: 1500;
