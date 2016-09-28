@@ -36,6 +36,10 @@ p a {
     border-radius: 0;
     color: #fff;
     background-color: #0D9DB8;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 1.3em;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .btn-dark:hover,
