@@ -218,6 +218,10 @@ hr.small {
 	padding-top: 3%;
 }
 
+.sessiontime {
+	font-style:italic;
+	color: #8E8E8E
+}
 /* agenda legend */
 
 .legend li { 
