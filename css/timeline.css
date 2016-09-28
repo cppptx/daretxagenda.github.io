@@ -2,6 +2,7 @@
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
+  font-family: 'Roboto', sans-serif;
 }
 .timeline:before {
   top: 0;
