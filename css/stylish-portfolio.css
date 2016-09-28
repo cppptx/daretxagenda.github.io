@@ -222,6 +222,19 @@ hr.small {
 	font-style:italic;
 	color: #8E8E8E
 }
+
+#learnmore {
+	background-color: #F6AA30;
+}
+
+.register {
+	background-color: #DA2E26;
+}
+
+#menuregister {
+	color: white;
+}
+
 /* agenda legend */
 
 .legend li { 
