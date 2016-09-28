@@ -176,6 +176,10 @@ hr.small {
 	font-size: 3em;
 }
 
+.header .btn {
+	margin-top: 5px;
+}
+
 /* About */
 
 .about {
