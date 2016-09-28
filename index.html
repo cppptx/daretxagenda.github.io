@@ -337,9 +337,9 @@
             <div class="timeline-body">
             <ul class="list-unstyled agenda">
                 <li class="other"><a tabindex="0" class="btn-link" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Racial Equity Impact Analysis (L2S, RE)" data-content="Description coming soon.">Cross-Sector Race Equity, RE), <i>Hill County A</i></a></li>
-                <li class="education"><a tabindex="0" class="btn-link" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Keeping Kids with Family: Supporting Caregivers Who Step Up to Help" data-content="Description coming soon.">Keeping Kids with Family: Supporting Caregivers Who Step Up to Help, <i>Hill County B</i></a></li>
-                <li class="health"><a tabindex="0" class="btn-link" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Meet the Next Generation of Policy Thinkers" data-content="Description coming soon.">Meet the Next Generation of Policy Thinkers, <i>Hill County C</i></a></li>
-                <li class="communications"><a tabindex="0" class="btn-link" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Texas Needs Smart Policies, Not a Miracle, to Expand Access to Good Jobs," data-content="Description coming soon.">Texas Needs Smart Policies, Not a Miracle, to Expand Access to Good Jobs, <i>Hill County D</i></a></li>
+                <li class="health"><a tabindex="0" class="btn-link" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Keeping Kids with Family: Supporting Caregivers Who Step Up to Help" data-content="Description coming soon.">Keeping Kids with Family: Supporting Caregivers Who Step Up to Help, <i>Hill County B</i></a></li>
+                <li class="other"><a tabindex="0" class="btn-link" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Meet the Next Generation of Policy Thinkers" data-content="Description coming soon.">Meet the Next Generation of Policy Thinkers, <i>Hill County C</i></a></li>
+                <li class="economic"><a tabindex="0" class="btn-link" role="button" data-toggle="popover" data-placement="top" data-trigger="focus" title="Texas Needs Smart Policies, Not a Miracle, to Expand Access to Good Jobs," data-content="Description coming soon.">Texas Needs Smart Policies, Not a Miracle, to Expand Access to Good Jobs, <i>Hill County D</i></a></li>
               </ul>
             </div>
           </div>
@@ -361,8 +361,8 @@
     <br>
 
     <!-- Map -->
-    <section id="contact">
-        <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3446.178707574877!2d-97.7488586848798!3d30.260488981804226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b504282be4a9%3A0x827e1b9c0ba012e3!2sHyatt+Regency!5e0!3m2!1sen!2sus!4v1473888874907" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>   
+    <section id="contact" class="map">
+        <iframe id="map_canvas1" class= "scrolloff" src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3446.178707574877!2d-97.7488586848798!3d30.260488981804226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b504282be4a9%3A0x827e1b9c0ba012e3!2sHyatt+Regency!5e0!3m2!1sen!2sus!4v1473888874907" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>   
     </section>
 
     <!-- Footer -->
@@ -423,6 +423,23 @@
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
+	
+	// Prevents map from scrolling on mouseover
+    $(document).ready(function () {
+
+        // you want to enable the pointer events only on click;
+
+        $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none on doc ready
+        $('#canvas1').on('click', function () {
+            $('#map_canvas1').removeClass('scrolloff'); // set the pointer events true on click
+        });
+
+        // you want to disable pointer events when the mouse leave the canvas area;
+
+        $("#map_canvas1").mouseleave(function () {
+            $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area;
+    	});
+	});
     // Scrolls to the selected menu item on the page
     $(function() {
         $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
