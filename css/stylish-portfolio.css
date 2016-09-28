@@ -75,7 +75,6 @@ hr.small {
     transform: translateX(250px);
     overflow-y: auto;
     background: #6E6E6E;
-	border: dotted 1.5px #000;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
