@@ -379,6 +379,6 @@ footer {
 @media (max-width: 767px){
   header, h1 {
 	  font-size: .8em;
-	  padding-top: 15%;
+	  padding-top: 20%;
   }
 }
