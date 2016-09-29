@@ -352,6 +352,12 @@ hr.small {
     height: 500px;
 }
 
+/* Footer */
+
+footer .register {
+	margin-top: 10px;
+}
+
 .scrolloff {
         pointer-events: none;
     }
