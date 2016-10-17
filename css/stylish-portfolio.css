@@ -202,6 +202,8 @@ hr.small {
 
 .popover-content {
 	font-family: 'Didact Gothic', sans-serif;
+	height: 200px;
+  	overflow-y: scroll;
 }
 
 .popover-title, .popover-content {
