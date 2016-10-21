@@ -372,6 +372,19 @@ hr.small {
     height: 500px;
 }
 
+.sponsorbig {
+	max-width: 100%;
+}
+
+.sponsorsmall {
+	max-width: 30%;
+}
+
+#methodist {
+	padding-top: 5%;
+}
+
+
 /* Footer */
 
 footer .register {
@@ -414,5 +427,14 @@ footer {
   header, h1 {
 	  font-size: .8em;
 	  padding-top: 20%;
+  }
+  
+  .sponsorbig {
+	max-width: 80%;
+	padding-top: 15%;
+}
+  .sponsorsmall {
+  	padding-top: 15%;
+	max-width: 40%;
   }
 }
