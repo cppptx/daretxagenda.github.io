@@ -373,15 +373,20 @@ hr.small {
 }
 
 .sponsorbig {
-	max-width: 100%;
+	max-width: 380px;
+	padding: 5px;
 }
 
 .sponsorsmall {
-	max-width: 30%;
+	max-width: 160px;
 }
 
 #methodist {
-	padding-top: 5%;
+	padding-top: 20px;
+}
+
+#communityhealth {
+	max-width: 120px;
 }
 
 
@@ -429,10 +434,13 @@ footer {
 	  padding-top: 20%;
   }
   
-  .sponsorbig {
+}
+
+@media (max-width: 1199px){
+	  .sponsorbig {
 	max-width: 80%;
 	padding-top: 15%;
-}
+  }	
   .sponsorsmall {
   	padding-top: 15%;
 	max-width: 40%;
