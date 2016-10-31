@@ -430,6 +430,14 @@ footer {
 	  padding-top: 20%;
   }
   
+  .sponsorrow {
+  	  padding-bottom: 0%;
+  }
+  
+  .sponsors img {
+	  padding-bottom: 2%;
+  }
+  
 }
 
 @media (max-width: 1199px){
