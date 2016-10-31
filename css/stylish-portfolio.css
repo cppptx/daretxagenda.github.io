@@ -210,6 +210,19 @@ hr.small {
 	color: #101010;	
 }
 
+.sponsorrow {
+	padding-bottom: 1.5%;
+}
+
+.biglogo {
+	max-width: 40%;
+}
+
+.smalllogo {
+	max-width: 30%;
+}
+
+
 /* Wednesday */
 
 .services {
